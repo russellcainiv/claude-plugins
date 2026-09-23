@@ -4,9 +4,9 @@
   "plugins": [
     {
       "name": "context-mode",
-      "description": "Keeps large tool output out of Claude's context window. Upstream: github.com/mksglu/context-mode (Elastic License 2.0).",
+      "description": "Keeps large tool output out of Claude's context window. Vendored copy of github.com/mksglu/context-mode v1.0.169 (Elastic License 2.0, see plugins/context-mode/LICENSE).",
       "version": "1.0.169",
-      "source": { "source": "github", "repo": "mksglu/context-mode" }
+      "source": "./plugins/context-mode"
     }
   ]
 }
