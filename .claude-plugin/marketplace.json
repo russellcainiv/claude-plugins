@@ -1,0 +1,12 @@
+{
+  "name": "russell-plugins",
+  "owner": { "name": "Russell Cain" },
+  "plugins": [
+    {
+      "name": "context-mode",
+      "description": "Keeps large tool output out of Claude's context window. Upstream: github.com/mksglu/context-mode (Elastic License 2.0).",
+      "version": "1.0.169",
+      "source": { "source": "github", "repo": "mksglu/context-mode" }
+    }
+  ]
+}
