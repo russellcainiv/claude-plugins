@@ -1,12 +1,25 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "russell-plugins",
+  "description": "Russell's personal Claude Code plugins for cloud Project threads.",
   "owner": { "name": "Russell Cain" },
   "plugins": [
     {
       "name": "context-mode",
-      "description": "Keeps large tool output out of Claude's context window. Vendored copy of github.com/mksglu/context-mode v1.0.169 (Elastic License 2.0, see plugins/context-mode/LICENSE).",
+      "description": "Keeps large tool output out of Claude's context window. Vendored copy of mksglu/context-mode v1.0.169 (Elastic License 2.0).",
       "version": "1.0.169",
+      "author": { "name": "Mert Koseoglu" },
+      "category": "productivity",
+      "homepage": "https://github.com/mksglu/context-mode",
       "source": "./plugins/context-mode"
+    },
+    {
+      "name": "hello-sync",
+      "description": "Test plugin: proves this marketplace syncs to cloud threads.",
+      "version": "1.0.0",
+      "author": { "name": "Russell Cain" },
+      "category": "development",
+      "source": "./plugins/hello-sync"
     }
   ]
 }

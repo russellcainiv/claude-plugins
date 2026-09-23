@@ -1,0 +1,6 @@
+{
+  "name": "hello-sync",
+  "description": "Test plugin: proves this marketplace syncs to cloud threads.",
+  "version": "1.0.0",
+  "author": { "name": "Russell Cain" }
+}
